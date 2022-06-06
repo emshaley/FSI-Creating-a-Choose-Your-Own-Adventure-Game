@@ -15,8 +15,7 @@ if (firstAnswer === "left") {
     }
         
 } else if (firstAnswer === "right") {
-  let secondAnswer = window.prompt("You come across a snoring dragon. On the other side of him,\
-  you see a chest of treasure. Another path would lead you away from the dragon altogether. Which path do you take?")
+  let secondAnswer = window.prompt("You come across a snoring dragon. On the other side of him, you see a chest of treasure. Another path would lead you away from the dragon altogether. Which path do you take?")
   if (secondAnswer  === "past the dragon") {
       let thirdAnswer = window.prompt("The dragon wakes up and sits upright. You only have a moment to respond, to stay or run:")
       if (thirdAnswer === "stay"){window.alert("You and the dragon have an uplifting conversation about local politics and become lifelong friends.")}
